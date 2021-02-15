@@ -1,11 +1,13 @@
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  );
+  <div>
+  <label class="label" for="name">Name:</label>
+  <input id="name"/>
+  <button style="background-color:red; color:white;">Submit</button>
+</div>
+  ); 
 }
 
 export default App;
